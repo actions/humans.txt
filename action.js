@@ -13,7 +13,7 @@ const formatters = {
 main()
 
 function main() {
-  const format = process.argv[2] || (process.stdout.isTTY ? "shell" : "txt")
+  const format = process.argv[2] || ((process.env.GITHUB_ACTION || process.stdout.isTTY) ? "shell" : "txt")
 
   const formatter = formatters[format]
   if (!formatter) {
