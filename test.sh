@@ -1,8 +1,10 @@
-#!bin/bash
+#!/bin/bash
 
 set -xeuo pipefail
 
-node action.js txt >/tmp/t1
-node action.js json >/tmp/t2
-node action.js shell >/tmp/t3
+node action.js json >/dev/null
+node action.js txt
+# check default arg
+node action.js >/dev/null
+node action.js shell
 
