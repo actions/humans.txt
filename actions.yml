@@ -1,0 +1,11 @@
+name: 'GitHub Actions humans.txt'
+description: 'List out the humans who help feed and tend the robots of GitHub Actions'
+inputs:
+  format:
+    description: 'How to output the people of actions - txt, json or ascii'
+    default: 'ascii'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.format }}
