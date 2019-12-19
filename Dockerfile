@@ -1,7 +1,9 @@
 FROM node:12
 
-COPY . .
+WORKDIR /opt/humans.txt
+
+COPY . /opt/humans.txt
 
 RUN npm i --production
 
-ENTRYPOINT ["node" , "action.js"]
+ENTRYPOINT ["bash", "/opt/humans.txt/run.sh"]
