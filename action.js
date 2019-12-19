@@ -2,6 +2,7 @@
 
 const fs = require('fs')
 const yaml = require('yaml')
+const chalk = require('chalk')
 
 const formatters = {
   txt: txtFormatter,
@@ -12,7 +13,7 @@ const formatters = {
 main()
 
 function main() {
-  const format = process.argv[2]
+  const format = process.argv[2] || (process.stdout.isTTY ? "shell" : "txt")
 
   const formatter = formatters[format]
   if (!formatter) {
@@ -41,10 +42,9 @@ function txtFormatter({humans}, {colors = false} = {}) {
   let alum = humans.filter(h => h.alum).map(h => h.name)
 
   if(colors) {
-    const chalk = require('chalk')
     const total = active.length + alum.length
-    active = active.map((n, i) => chalk.hsl((i / total) * 360, 100, 50)(n))
-    alum = alum.map((n, i) => chalk.hsl(((i + active.length) / total) * 360, 100, 50)(n))
+    active = mapColorRange(active, 0, total)
+    alum = mapColorRange(alum, active.length, total)
   }
 
   console.log("Current humans")
@@ -57,4 +57,7 @@ function txtFormatter({humans}, {colors = false} = {}) {
   console.log(alum.join("\n"))
 }
 
+function mapColorRange(strings, base, total) {
+  return strings.map((n, i) => chalk.hsl(((i + base) / total) * 360, 100, 50)(n))
+}
 
