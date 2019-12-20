@@ -25,6 +25,8 @@ function main() {
 
   const data = yaml.parse(fs.readFileSync(__dirname + "/humans.txt.yaml", {encoding: "utf8"}))
 
+  data.humans = data.humans.sort((a,b) => a.name > b.name ? 1 : -1)
+
   formatter(data, {output})
 }
 
