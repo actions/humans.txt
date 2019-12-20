@@ -7,13 +7,14 @@ const chalk = require('chalk')
 const formatters = {
   txt: txtFormatter,
   json: jsonFormatter,
-  shell: (data) => txtFormatter(data, { colors: true}),
+  shell: (data, opts) => txtFormatter(data, { ...opts, colors: true}),
 }
 
 main()
 
 function main() {
   const format = process.argv[2] || ((process.env.GITHUB_ACTION || process.stdout.isTTY) ? "shell" : "txt")
+  const output = process.argv[3] ? fs.openSync(process.argv[3], "w+") : 1;
 
   const formatter = formatters[format]
   if (!formatter) {
@@ -23,7 +24,7 @@ function main() {
 
   const data = yaml.parse(fs.readFileSync("./humans.txt.yaml", {encoding: "utf8"}))
 
-  formatter(data)
+  formatter(data, {output})
 }
 
 function invalidFormat(format) {
@@ -33,11 +34,11 @@ function invalidFormat(format) {
   return
 }
 
-function jsonFormatter({humans}) {
-  console.log(JSON.stringify(humans, null, 4))
+function jsonFormatter({humans, output}) {
+  fs.writeSync(output, JSON.stringify(humans, null, 4))
 }
 
-function txtFormatter({humans}, {colors = false} = {}) {
+function txtFormatter({humans}, {colors = false, output} = {}) {
   let active = humans.filter(h => !h.alum).map(h => h.name)
   let alum = humans.filter(h => h.alum).map(h => h.name)
 
@@ -47,14 +48,14 @@ function txtFormatter({humans}, {colors = false} = {}) {
     alum = mapColorRange(alum, active.length, total)
   }
 
-  console.log("Current humans")
-  console.log("==============\n")
-  console.log(active.join("\n"))
-  console.log("\n")
+  fs.writeSync(output, "Current humans\n")
+  fs.writeSync(output,"==============\n\n")
+  fs.writeSync(output,active.join("\n"))
+  fs.writeSync(output,"\n\n")
 
-  console.log("Human alumni")
-  console.log("============\n")
-  console.log(alum.join("\n"))
+  fs.writeSync(output,"Human alumni\n")
+  fs.writeSync(output,"============\n\n")
+  fs.writeSync(output,alum.join("\n"))
 }
 
 function mapColorRange(strings, base, total) {
