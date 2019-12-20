@@ -10,5 +10,5 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.format }}
-    - ${{ inputs.output }}
+  - "${{ inputs.format }}"
+  - "${{ inputs.output }}"
