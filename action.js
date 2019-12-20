@@ -35,7 +35,7 @@ function invalidFormat(format) {
   return
 }
 
-function jsonFormatter({humans, output}) {
+function jsonFormatter({humans}, {output}) {
   fs.writeSync(output, JSON.stringify(humans, null, 4))
 }
 
