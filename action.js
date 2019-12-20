@@ -6,6 +6,7 @@ const chalk = require('chalk')
 
 const formatters = {
   txt: txtFormatter,
+  html: htmlFormatter,
   json: jsonFormatter,
   shell: (data, opts) => txtFormatter(data, { ...opts, colors: true}),
 }
@@ -62,3 +63,12 @@ function mapColorRange(strings, base, total) {
   return strings.map((n, i) => chalk.hsl(((i + base) / total) * 360, 100, 50)(n))
 }
 
+function htmlFormatter(data, opts) {
+  fs.writeSync(opts.output, `<!doctype html>
+    <meta charset='utf8' />
+    <title>Actions - humans.txt</title>
+    <body><pre>
+  `)
+  txtFormatter(data, opts)
+  fs.writeSync(opts.output, "</pre></body>")
+}

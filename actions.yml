@@ -2,7 +2,7 @@ name: 'GitHub Actions humans.txt'
 description: 'List out the humans who help feed and tend the robots of GitHub Actions'
 inputs:
   format:
-    description: 'How to output the people of actions - txt, json or ascii'
+    description: 'How to output the people of actions - txt, json, html or ascii'
     default: 'ascii'
   output:
     description: 'Where to output the file - stdout otherwise'
