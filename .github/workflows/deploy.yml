@@ -13,7 +13,7 @@ jobs:
         with:
           format: html
           output: ./gh-pages/index.html
-      - run: ls gh-pages
+      - run: "pwd; ls"
       - uses: peaceiris/actions-gh-pages@v2
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
