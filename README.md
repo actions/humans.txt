@@ -13,4 +13,6 @@ Options: `txt`, `json`, `shell`
 - shell - a lovely colourful list of humans making full use of advanced terminal escape-code technology
 - html - a gh-pages friendly html output, which looks like a plaintext humans.txt
 
+## humans.txt
 
+This automatically deploys to https://actions.github.io/humans.txt.
