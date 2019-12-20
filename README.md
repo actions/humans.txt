@@ -1,6 +1,6 @@
 # GitHub Actions humans.txt
 
-Lists out the humans who work, or worked, on the GitHub Actions product.
+[Lists out](https://actions.github.io/humans.txt) the humans who work, or worked, on the GitHub Actions product.
 
 ## Inputs
 
