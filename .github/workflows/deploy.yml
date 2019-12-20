@@ -1,0 +1,17 @@
+on:
+  push:
+    branches: ["master", "deploy-test"]
+
+jobs:
+  depoy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: mkdir -p /github/workspace/gh-pages
+      - uses: ./
+        with:
+          format: txt
+          output: ./gh-pages/humans.txt
+      - uses: peaceiris/actions-gh-pages@v2
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_DIR: ./gh-pages
