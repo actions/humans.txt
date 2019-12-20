@@ -10,4 +10,8 @@ jobs:
     - uses: actions/checkout@v2
     - run: npm install --production
     - run: "./test.sh"
+    - uses: ./
+      name: "Check container builds"
+      with:
+        format: shell
 

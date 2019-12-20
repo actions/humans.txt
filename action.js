@@ -23,7 +23,7 @@ function main() {
     return
   }
 
-  const data = yaml.parse(fs.readFileSync("./humans.txt.yaml", {encoding: "utf8"}))
+  const data = yaml.parse(fs.readFileSync(__dirname + "/humans.txt.yaml", {encoding: "utf8"}))
 
   formatter(data, {output})
 }
@@ -66,9 +66,9 @@ function mapColorRange(strings, base, total) {
 function htmlFormatter(data, opts) {
   fs.writeSync(opts.output, `<!doctype html>
     <meta charset='utf8' />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>Actions - humans.txt</title>
-    <body><pre>
-  `)
+    <body><pre>`)
   txtFormatter(data, opts)
   fs.writeSync(opts.output, "</pre></body>")
 }

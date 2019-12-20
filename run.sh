@@ -1,3 +1,1 @@
-cd /opt/humans.txt
-
-node action.js $@
+node /opt/humans.txt/action.js $@
