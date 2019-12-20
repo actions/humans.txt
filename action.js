@@ -31,7 +31,7 @@ function main() {
 function invalidFormat(format) {
   const list = Object.keys(formatters).sort().join(",")
   console.error(`'${format}' is not one of the accepted formats ${list}`)
-  process.statusCode = 1
+  process.exitCode = 1
   return
 }
 
