@@ -1,7 +1,0 @@
-{
-  "private": true,
-  "dependencies": {
-    "chalk": "3.0.0",
-    "yaml": "1.7.2"
-  }
-}
