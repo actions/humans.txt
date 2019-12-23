@@ -21,4 +21,3 @@ jobs:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_DIR: gh-pages
           PUBLISH_BRANCH: gh-pages
-`
