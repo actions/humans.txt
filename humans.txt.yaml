@@ -5,5 +5,11 @@
 humans:
 - name: Mona Lisa Octocat
   honorary_human: true
-
+- name: "Tim Ruffles"
+  alum: true
+- name: "Andrew Appleton"
+  alum: true
+- name: "Hayden Faulds"
+- name: "Anthony Sterling"
 - name: "Jonathan Clem"
+- name: "Mike Coutermarsh"
