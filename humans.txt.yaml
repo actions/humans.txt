@@ -5,6 +5,8 @@
 humans:
 - name: Mona Lisa Octocat
   honorary_human: true
+- name: "Matt Burke"
+  alum: true
 - name: "Angela Rivera"
 - name: "Pete Wagner"
 - name: "Parker Moore"
