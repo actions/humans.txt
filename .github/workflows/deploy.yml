@@ -5,7 +5,7 @@ on:
     branches: ["master", "deploy-test"]
 
 jobs:
-  depoy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
