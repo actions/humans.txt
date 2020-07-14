@@ -2,7 +2,7 @@ name: Deploy 🚀
 
 on:
   push:
-    branches: ["master", "deploy-test"]
+    branches: ["main", "deploy-test"]
 
 jobs:
   deploy:
