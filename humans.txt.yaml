@@ -1,7 +1,7 @@
 # add yourself to this list as a yaml
 # object with the following keys:
 # - name - string - your name
-# - alum - boolean - whether you still work on Actions
+# - alum - boolean - whether you no longer work on Actions
 humans:
 - name: Mona Lisa Octocat
   honorary_human: true
@@ -26,6 +26,7 @@ humans:
 - name: "Hayden Faulds"
 - name: "Anthony Sterling"
 - name: "Jonathan Clem"
+- name: "Jeroen Rietveld"
 - name: "Mike Coutermarsh"
 - name: "Thomas Brumley"
 - name: "Brian Cristante"
