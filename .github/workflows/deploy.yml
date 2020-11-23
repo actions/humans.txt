@@ -16,7 +16,7 @@ jobs:
           format: html
           output: ./gh-pages/index.html
       - run: "find ./gh-pages"
-      - uses: peaceiris/actions-gh-pages@v3.6.4
+      - uses: peaceiris/actions-gh-pages@v3.7.3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: gh-pages
