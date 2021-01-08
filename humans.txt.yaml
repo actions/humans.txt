@@ -15,6 +15,7 @@ humans:
   alum: true
 - name: "Melissa Xie"
 - name: "Jason Long"
+  alum: true
 - name: "Iheanyi Ekechukwu"
   alum: true
 - name: "Christopher Schleiden"
@@ -30,9 +31,11 @@ humans:
 - name: "Jonathan Clem"
 - name: "Joris Abalea"
 - name: "Jean-Philippe André"
+  alum: true
 - name: "Jeroen Rietveld"
 - name: "Julio Barba"
 - name: "Mike Coutermarsh"
+  alum: true
 - name: "Thomas Brumley"
 - name: "Brian Cristante"
 - name: "Yang Cao"
