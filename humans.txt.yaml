@@ -28,6 +28,7 @@ humans:
   alum: true
 - name: "Hayden Faulds"
 - name: "Anthony Sterling"
+  alum: true
 - name: "Ajay Krishna Nalisetty"
 - name: "Jonathan Clem"
 - name: "Joris Abalea"
@@ -51,9 +52,11 @@ humans:
 - name: "PJ Quirk"
 - name: "Chad Kimes"
 - name: "Phani Raj"
+  alum: true
 - name: "Konrad Pabjan"
 - name: "Adrian Mato Gondelle"
 - name: "Patrick Marsceill"
+  alum: true
 - name: "Yaswanth Anantharaju"
 - name: "Ross Brodbeck"
 - name: "Antoine Grondin"
