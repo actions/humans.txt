@@ -16,7 +16,8 @@ jobs:
           format: html
           output: ./gh-pages/index.html
       - run: "find ./gh-pages"
-      - uses: peaceiris/actions-gh-pages@v3.7.3
+      # https://github.com/peaceiris/actions-gh-pages/releases/tag/v3.8.0
+      - uses: peaceiris/actions-gh-pages@068dc23d9710f1ba62e86896f84735d869951305
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: gh-pages
