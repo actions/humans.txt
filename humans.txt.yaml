@@ -22,6 +22,7 @@ humans:
 - name: "Christopher Schleiden"
 - name: "Cameron Booth"
 - name: "Alberto Gimeno"
+  alum: true
 - name: "Tim Ruffles"
   alum: true
 - name: "Andrew Appleton"
@@ -67,7 +68,12 @@ humans:
 - name: "Rob Herley"
 - name: "Soe Tun"
 - name: "Catherine Osadciw"
+  alum: true
 - name: "John Mills"
 - name: "Belinda Vennam"
 - name: "Florian Wagner"
 - name: "Nicholas Bergesen"
+- name: "Sven Pfleiderer"
+- name: "Ryan Troost"
+- name: "Jonathan Tamsut"
+- name: "Bethany Janos"
