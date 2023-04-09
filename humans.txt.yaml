@@ -31,8 +31,10 @@ humans:
 - name: "Anthony Sterling"
   alum: true
 - name: "Ajay Krishna Nalisetty"
+  alum: true
 - name: "Jonathan Clem"
 - name: "Joris Abalea"
+  alum: true
 - name: "Jean-Philippe André"
   alum: true
 - name: "Jeroen Rietveld"
@@ -44,6 +46,7 @@ humans:
 - name: "Brian Cristante"
 - name: "Yang Cao"
 - name: "Yujin Shin"
+  alum: true
 - name: "Bryan MacFarlane"
 - name: "Josh Gross"
 - name: "Guðmundur Bjarni Ólafsson"
@@ -64,6 +67,7 @@ humans:
 - name: "Antoine Grondin"
 - name: "Christina Guo"
 - name: "Yena Kim"
+  alum: true
 - name: "Jeff Martin"
 - name: "Jacob Wallraff"
 - name: "Rob Herley"
@@ -73,7 +77,9 @@ humans:
 - name: "John Mills"
 - name: "Belinda Vennam"
 - name: "Florian Wagner"
+  alum: true
 - name: "Nicholas Bergesen"
+  alum: true
 - name: "Sven Pfleiderer"
 - name: "Ryan Troost"
 - name: "Jonathan Tamsut"
