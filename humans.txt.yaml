@@ -3,93 +3,97 @@
 # - name - string - your name
 # - alum - boolean - whether you no longer work on Actions
 humans:
-- name: Mona Lisa Octocat
-  honorary_human: true
-- name: "Matt Burke"
+- name: "Adrian Mato Gondelle"
+- name: "Ajay Krishna Nalisetty"
+  alum: true
+- name: "Alberto Gimeno"
+  alum: true
+- name: "Amarilis Dias"
+- name: "Andrew Appleton"
   alum: true
 - name: "Angela Rivera"
   alum: true
-- name: "Pete Wagner"
+- name: "Anna Rosenthal"
   alum: true
-- name: "Parker Moore"
+- name: "Anthony Sterling"
   alum: true
-- name: "Melissa Xie"
+- name: "Antoine Grondin"
+- name: "Aris Acoba"
+- name: "Bassem Dghaidi"
+- name: "Belinda Vennam"
+- name: "Beth Brennan"
+- name: "Bethany Janos"
+- name: "Brian Cristante"
+- name: "Bryan MacFarlane"
+- name: "Cameron Booth"
+- name: "Catherine Osadciw"
   alum: true
-- name: "Jason Long"
+- name: "Cedric Wille"
+- name: "Chad Kimes"
+- name: "Christina Guo"
+- name: "Christopher Schleiden"
+- name: "Dan Rigby"
+- name: "Dylan Smith"
+- name: "Erez Testiler"
+- name: "Eric Sciple"
+- name: "Florian Wagner"
+  alum: true
+- name: "Guðmundur Bjarni Ólafsson"
+  alum: true
+- name: "Hayden Faulds"
   alum: true
 - name: "Iheanyi Ekechukwu"
   alum: true
-- name: "Christopher Schleiden"
-- name: "Cameron Booth"
-- name: "Alberto Gimeno"
-  alum: true
-- name: "Tim Ruffles"
-  alum: true
-- name: "Andrew Appleton"
-  alum: true
-- name: "Hayden Faulds"
-- name: "Anthony Sterling"
-  alum: true
-- name: "Ajay Krishna Nalisetty"
-  alum: true
-- name: "Jonathan Clem"
-- name: "Joris Abalea"
+- name: "Jacob Wallraff"
+- name: "Jason Long"
   alum: true
 - name: "Jean-Philippe André"
   alum: true
+- name: "Jeff Martin"
 - name: "Jeroen Rietveld"
   alum: true
+- name: "Johanan Idicula"
+- name: "Jonathan Clem"
+- name: "Jonathan Tamsut"
+- name: "John Mills"
+- name: "Joris Abalea"
+  alum: true
+- name: "Josh Gross"
 - name: "Julio Barba"
+- name: "Kamil Grzebien"
+- name: "Konrad Pabjan"
+- name: "Matt Burke"
+  alum: true
+- name: "Melissa Xie"
+  alum: true
 - name: "Mike Coutermarsh"
   alum: true
-- name: "Thomas Brumley"
-- name: "Brian Cristante"
-- name: "Yang Cao"
-- name: "Yujin Shin"
-  alum: true
-- name: "Bryan MacFarlane"
-- name: "Josh Gross"
-- name: "Guðmundur Bjarni Ólafsson"
-  alum: true
-- name: "Anna Rosenthal"
-  alum: true
-- name: "Beth Brennan"
-- name: "PJ Quirk"
-- name: "Chad Kimes"
-- name: "Phani Raj"
-  alum: true
-- name: "Konrad Pabjan"
-- name: "Adrian Mato Gondelle"
-- name: "Patrick Marsceill"
-  alum: true
-- name: "Yaswanth Anantharaju"
-- name: "Ross Brodbeck"
-- name: "Antoine Grondin"
-- name: "Christina Guo"
-- name: "Yena Kim"
-  alum: true
-- name: "Jeff Martin"
-- name: "Jacob Wallraff"
-- name: "Rob Herley"
-- name: "Soe Tun"
-- name: "Catherine Osadciw"
-  alum: true
-- name: "John Mills"
-- name: "Belinda Vennam"
-- name: "Florian Wagner"
-  alum: true
+- name: Mona Lisa Octocat
+  honorary_human: true
 - name: "Nicholas Bergesen"
   alum: true
-- name: "Sven Pfleiderer"
-- name: "Ryan Troost"
-- name: "Jonathan Tamsut"
-- name: "Bethany Janos"
-- name: "Eric Sciple"
-- name: "Dan Rigby"
-- name: "Philip Gai"
+- name: "Parker Moore"
+  alum: true
+- name: "Patrick Marsceill"
+  alum: true
+- name: "Pete Wagner"
+  alum: true
 - name: "Peter Tasker"
-- name: "Johanan Idicula"
-- name: "Cedric Wille"
-- name: "Erez Testiler"
-- name: "Kamil Grzebien"
-- name: "Bassem Dghaidi"
+- name: "Phani Raj"
+  alum: true
+- name: "Philip Gai"
+- name: "PJ Quirk"
+- name: "Ryan Troost"
+- name: "Rob Herley"
+- name: "Ross Brodbeck"
+- name: "Soe Tun"
+- name: "Sven Pfleiderer"
+- name: "Thomas Brumley"
+- name: "Tim Ruffles"
+  alum: true
+- name: "Yaswanth Anantharaju"
+- name: "Yang Cao"
+- name: "Yena Kim"
+  alum: true
+- name: "Yujin Shin"
+  alum: true
