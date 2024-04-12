@@ -19,12 +19,14 @@ humans:
 - name: "Anthony Sterling"
   alum: true
 - name: "Antoine Grondin"
+  alum: true
 - name: "Aris Acoba"
 - name: "Bassem Dghaidi"
 - name: "Belinda Vennam"
 - name: "Beth Brennan"
 - name: "Bethany Janos"
 - name: "Brian Cristante"
+  alum: true
 - name: "Brittany Ellich"
 - name: "Bryan MacFarlane"
 - name: "Cameron Booth"
@@ -62,6 +64,7 @@ humans:
 - name: "Joanna Krzek-Lubowiecka"
 - name: "Johanan Idicula"
 - name: "Jonathan Clem"
+  alum: true
 - name: "Jonathan Tamsut"
 - name: "John Mills"
 - name: "Joris Abalea"
@@ -96,10 +99,13 @@ humans:
 - name: "Ryan Troost"
 - name: "Rob Herley"
 - name: "Ross Brodbeck"
+  alum: true
 - name: "Seth Rylan Gainey"
 - name: "Soe Tun"
+  alum: true
 - name: "Sven Pfleiderer"
 - name: "Thomas Brumley"
+  alum: true
 - name: "Tim Ruffles"
   alum: true
 - name: "Yaswanth Anantharaju"
