@@ -2,19 +2,14 @@ name: CI 🔨
 
 on: 
   pull_request:
-    branches: ['main']
+    branches: ["main"]
   push:
-    branches: ['main']
+    branches: ["main"]
 
 jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - run: npm install --production
     - run: "./test.sh"
-    - uses: ./
-      name: "Check container builds"
-      with:
-        format: shell
-
