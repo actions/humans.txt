@@ -23,24 +23,34 @@ humans:
 - name: "Aris Acoba"
 - name: "Bassem Dghaidi"
 - name: "Belinda Vennam"
+  alum: true
 - name: "Beth Brennan"
 - name: "Bethany Janos"
+  alum: true
 - name: "Brian Cristante"
   alum: true
 - name: "Brittany Ellich"
+  alum: true
 - name: "Bryan MacFarlane"
 - name: "Cameron Booth"
+  alum: true
 - name: "Catherine Osadciw"
   alum: true
 - name: "Cedric Wille"
+  alum: true
 - name: "Chad Kimes"
 - name: "Christina Guo"
+  alum: true
 - name: "Christopher Schleiden"
   alum: true
 - name: "Crystal Tenn"
+  alum: true
 - name: "Dan Rigby"
+  alum: true
 - name: "Dylan Smith"
+  alum: true
 - name: "Erez Testiler"
+  alum: true
 - name: "Eric Sciple"
 - name: "Erika Eggemeyer"
   alum: true
@@ -48,6 +58,7 @@ humans:
 - name: "Florian Wagner"
   alum: true
 - name: "Francesco Renzi"
+  alum: true
 - name: "Guðmundur Bjarni Ólafsson"
   alum: true
 - name: "Hayden Faulds"
@@ -55,10 +66,12 @@ humans:
 - name: "Iheanyi Ekechukwu"
   alum: true
 - name: "Isaac Shalom"
+  alum: true
 - name: "Jacob Wallraff"
 - name: "Jason Long"
   alum: true
 - name: "Javier Perez"
+  alum: true
 - name: "Jean-Philippe André"
   alum: true
 - name: "Jeff Martin"
@@ -70,7 +83,9 @@ humans:
 - name: "Jonathan Clem"
   alum: true
 - name: "Jonathan Tamsut"
+  alum: true
 - name: "John Mills"
+  alum: true
 - name: "John Wesley Walker III"
 - name: "Joris Abalea"
   alum: true
@@ -79,9 +94,12 @@ humans:
   alum: true
 - name: "Julio Barba"
 - name: "Kamil Grzebien"
+  alum: true
 - name: "Konrad Pabjan"
 - name: "Laura Yu"
+  alum: true
 - name: "Maggie Spletzer"
+  alum: true
 - name: "Matt Burke"
   alum: true
 - name: "Melissa Xie"
@@ -109,9 +127,11 @@ humans:
 - name: "Ross Brodbeck"
   alum: true
 - name: "Seth Rylan Gainey"
+  alum: true
 - name: "Soe Tun"
   alum: true
 - name: "Sven Pfleiderer"
+  alum: true
 - name: "Thomas Brumley"
   alum: true
 - name: "Tim Ruffles"
