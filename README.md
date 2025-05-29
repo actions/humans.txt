@@ -1,6 +1,12 @@
 # GitHub Actions humans.txt
 
-[Lists out](https://actions.github.io/humans.txt) the humans who work, or worked, on the GitHub Actions product. Add yourself via PR if you work or worked on the product ❤️
+[Lists out](https://actions.github.io/humans.txt) the humans who work, or worked, on the GitHub Actions product.
+
+## Contributing
+
+Add yourself via PR if you work or worked on the product ❤️
+
+To respect each individual's privacy, do not add anyone to this list without asking them first.
 
 ## Inputs
 
